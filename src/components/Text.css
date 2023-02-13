@@ -1,0 +1,42 @@
+.text-component {
+    background-color: rgb(228, 134, 134);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-present {
+    width: 40%;
+}
+
+.text-present p {
+    font-family: auto;
+    font-size: 2rem;
+    text-align: justify;
+}
+
+@media screen and (max-width: 600px) {
+    .text-component {
+        background-color: rgb(252, 180, 230);
+        width: 100vw;
+        height: 100vh;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .text-present {
+        width: 80%;
+        height: 80%;
+    }
+    
+    .text-present p {
+        font-family: auto;
+        font-size: 2rem;
+        text-align: justify;
+    }
+}

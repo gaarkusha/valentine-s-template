@@ -1,0 +1,160 @@
+.main-wrapper {
+    background-color: rgb(228, 134, 134);
+    overflow: hidden;
+    height: 100vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-wrapper {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+    background: rgb(250, 220, 220);
+    border-radius: 50%;
+    left: calc(50vw - 100px);
+    top: calc(50vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+}
+
+.logo-text {
+    font-family: auto;
+    font-size: 2.7rem;
+    color: rgb(24, 5, 5);
+}
+
+.text-wrapper {
+    padding-left: 150px;
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.title {
+    font-family: 'Dancing Script', cursive;
+    font-size: 6rem;
+    color: rgb(24, 5, 5);
+}
+
+.span-title {
+    font-family: auto;
+    font-size: 3rem;
+    color: rgb(24, 5, 5);
+}
+
+.btn-wrapper {
+    margin-top: 50px;
+    background: rgb(250, 220, 220);
+    width: 50%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 40px;
+    -webkit-box-shadow: 1px 11px 24px 1px rgba(23, 29, 34, 0.17);
+    -moz-box-shadow: 1px 11px 24px 1px rgba(23, 29, 34, 0.17);
+    box-shadow: 1px 11px 24px 1px rgba(23, 29, 34, 0.17);
+}
+
+.btn {
+    text-decoration: none;
+    color: rgb(228, 134, 134);
+    font-weight: 700;
+    font-family: auto;
+    font-size: 1.4rem;
+}
+
+.bg {
+    background: url("../../public/bg.jpg");
+    position: relative;
+    height: 100vh;
+    width: 60%;
+    background-repeat: round;
+    clip-path: polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%);
+
+}
+
+@media screen and (max-width: 600px) {
+    .main-wrapper {
+        background: url("../../public/bg1.jpg");
+        z-index: 2;
+        height: 100vh;
+        width: 100vw;
+    }
+    .logo-wrapper {
+        position: absolute;
+        width: 150px;
+        height: 150px;
+        z-index: 2;
+        background: rgb(250, 220, 220);
+        border-radius: 50%;
+        left: calc(50vw - 75px);
+        top: calc(50vh - 270px);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        -webkit-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        -moz-box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+        box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+    }
+    .text-wrapper {
+        z-index: 2;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0;
+        padding-top: 100px;
+    }
+    
+    .title {
+        font-family: 'Dancing Script', cursive;
+        font-size: 5rem;
+        color: rgb(24, 5, 5);
+        z-index: 2;
+    }
+    
+    .span-title {
+        font-family: auto;
+        font-size: 3rem;
+        color: rgb(24, 5, 5);
+    }
+    
+    .btn-wrapper {
+        margin-top: 60px;
+        background: rgb(250, 220, 220);
+        width: 50%;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 40px;
+        -webkit-box-shadow: 1px 11px 24px 1px rgba(23, 29, 34, 0.17);
+        -moz-box-shadow: 1px 11px 24px 1px rgba(23, 29, 34, 0.17);
+        box-shadow: 1px 11px 24px 1px rgba(23, 29, 34, 0.17);
+    }
+    
+    .btn {
+        text-decoration: none;
+        color: rgb(228, 134, 134);
+        font-weight: 700;
+        font-family: auto;
+        font-size: 1.4rem;
+    }
+    
+    .bg {
+        display: none;
+    
+    }
+}
