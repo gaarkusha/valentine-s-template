@@ -17,6 +17,13 @@
     font-size: 2rem;
     text-align: justify;
 }
+.text-present div {
+    padding-top: 20px;
+    font-family: auto;
+    font-size: 2rem;
+    text-align: start;
+    width: 70%;
+}
 
 @media screen and (max-width: 600px) {
     .text-component {
@@ -31,12 +38,19 @@
     
     .text-present {
         width: 80%;
-        height: 80%;
+        height: 90%;
     }
     
     .text-present p {
         font-family: auto;
-        font-size: 2rem;
+        font-size: 1.4rem;
         text-align: justify;
+    }
+    .text-present div {
+        padding-top: 20px;
+        font-family: auto;
+        font-size: 1.4rem;
+        text-align: start;
+        width: 70%;
     }
 }

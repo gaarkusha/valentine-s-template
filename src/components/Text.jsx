@@ -4,7 +4,12 @@ const Text = () => {
     return(
         <div className="text-component">
             <div className="text-present">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quisquam voluptas error voluptates rerum. Voluptatibus tempore molestiae tempora asperiores facere dolor temporibus accusantium blanditiis, cumque hic, corrupti mollitia, illum placeat ipsum?</p>
+                <p>Поздравляю с Днем святого Валентина самую обаятельную, красивую, светлую, добрую девушку которую я когда либо встречал в своей жизни.
+                    Хочу чтобы в твоей жизни был человек который всегда поможет, выслушает и не осудит. Будет надежной опорой и поддержкой.
+                    Пользуясь случаем хочу пригласить тебя в субботу-воскресение посидеть попить чая (можно и не чая) с пиццей/ролами или что-то на твой выбор).
+                    И да, открой свое сердце, возможно скоро в него постучится твое счастье!
+                </p>
+                <div>P.s. Знаю дизайн не сверх, хотел успеть и немного удивить)</div>
             </div>
         </div>
     )
